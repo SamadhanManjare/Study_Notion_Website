@@ -6,6 +6,13 @@ const Home = () => {
     <div>
       <Link to='signup'>
       </Link>
+      <div className="">
+        <div>
+          <h1>Welcome to Study Notion</h1>
+          <p>Your ultimate study companion</p>
+        </div>
+        
+      </div>
     </div>
   )
 }
