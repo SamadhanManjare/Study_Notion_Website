@@ -98,6 +98,7 @@ function Home() {
         </div>
 
         {/* Code Section 2 */}
+        
         <div>
           <CodeBlocks
             position={"lg:flex-row-reverse"}
