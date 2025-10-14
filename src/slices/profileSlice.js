@@ -7,6 +7,8 @@ const initialState = {
     loading: false,
 };
 
+// Created profile slice
+
 const profileSlice = createSlice({
     name:"profile",
     initialState: initialState,
@@ -19,6 +21,8 @@ const profileSlice = createSlice({
           },
     },
 });
+
+// Action creators are generated for each case reducer function
 
 export const {setUser, setLoading} = profileSlice.actions;
 export default profileSlice.reducer;
