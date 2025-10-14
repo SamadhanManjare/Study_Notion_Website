@@ -1,5 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit"
 
+
+// Initial state
 const initialState = {
   step: 1,
   course: null,
@@ -7,6 +9,7 @@ const initialState = {
   paymentLoading: false,
 }
 
+// Created course slice
 const courseSlice = createSlice({
   name: "course",
   initialState,
@@ -31,6 +34,7 @@ const courseSlice = createSlice({
   },
 })
 
+// Action creators are generated for each case reducer function
 export const {
   setStep,
   setCourse,
