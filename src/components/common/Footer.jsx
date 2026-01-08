@@ -125,6 +125,7 @@ const Footer = () => {
           </div>
 
           {/* Section 2 */}
+          
           <div className="lg:w-[50%] flex flex-wrap flex-row justify-between pl-3 lg:pl-5 gap-3">
             {FooterLink2.map((ele, i) => {
               return (
@@ -178,6 +179,7 @@ const Footer = () => {
       </div>
     </div>
   );
+  // Footer Container ended 
 };
 
 export default Footer;
