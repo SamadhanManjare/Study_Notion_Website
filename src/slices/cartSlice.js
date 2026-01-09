@@ -60,6 +60,7 @@ const cartSlice = createSlice({
         toast.success("Course removed from cart")
       }
     },
+    // Reset cart
     resetCart: (state) => {
       state.cart = []
       state.total = 0
