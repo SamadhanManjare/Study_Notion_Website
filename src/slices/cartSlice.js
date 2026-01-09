@@ -41,6 +41,7 @@ const cartSlice = createSlice({
       // show toast function
       toast.success("Course added to cart")
     },
+    //@ts-check       
     removeFromCart: (state, action) => {
       const courseId = action.payload
       const index = state.cart.findIndex((item) => item._id === courseId)
@@ -55,7 +56,7 @@ const cartSlice = createSlice({
         localStorage.setItem("total", JSON.stringify(state.total))
         localStorage.setItem("totalItems", JSON.stringify(state.totalItems))
         // show toast
-        //show toast
+        
         toast.success("Course removed from cart")
       }
     },
