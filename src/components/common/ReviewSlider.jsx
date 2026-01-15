@@ -13,7 +13,7 @@ import { FaStar } from "react-icons/fa"
 // Import required modules
 import { Autoplay, FreeMode, Pagination } from "swiper/modules"
 
-// Get apiFunction and the endpoint
+
 // Get apiFunction and the endpoint
 import { apiConnector } from "../../services/apiconnector"
 import { ratingsEndpoints } from "../../services/apis"
@@ -34,7 +34,7 @@ function ReviewSlider() {
     })()
   }, [])
 
-  // console.log(reviews)
+  
 
   return (
     <div className="text-white">
