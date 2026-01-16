@@ -179,7 +179,7 @@ const Footer = () => {
       </div>
     </div>
   );
-  // Footer Container ended 
+ 
 };
 
 export default Footer;
