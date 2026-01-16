@@ -26,6 +26,6 @@ export default function ConfirmationModal({ modalData }) {
         </div>
       </div>
     </div>
-    // Modal container
+    
   )
 }
