@@ -42,6 +42,7 @@ function Navbar() {
   }
 
   return (
+    // Navbar container
     <div
       className={`flex h-14 items-center justify-center border-b-[1px] border-b-richblack-700 ${
         location.pathname !== "/" ? "bg-richblack-800" : ""
