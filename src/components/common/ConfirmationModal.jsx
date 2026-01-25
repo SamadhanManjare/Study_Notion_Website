@@ -1,5 +1,5 @@
 import IconBtn from "./IconBtn"
-//Conformation modal component
+
 //This component displays a modal with customizable text and buttons based on the provided modalData prop.
 export default function ConfirmationModal({ modalData }) {
   return (
