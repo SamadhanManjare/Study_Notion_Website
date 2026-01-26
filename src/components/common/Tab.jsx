@@ -1,5 +1,6 @@
 export default function Tab({ tabData, field, setField }) {
     return (
+      // Tab Component
       <div
         style={{
           boxShadow: "inset 0px -1px 0px rgba(255, 255, 255, 0.18)",
