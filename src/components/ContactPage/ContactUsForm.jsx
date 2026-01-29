@@ -6,6 +6,7 @@ import { apiConnector } from "../../services/apiconnector"
 import { contactusEndpoint } from "../../services/apis"
 
 const ContactUsForm = () => {
+  // Loading state for form submission
   const [loading, setLoading] = useState(false)
   const {
     register,
@@ -150,7 +151,7 @@ const ContactUsForm = () => {
           </span>
         )}
       </div>
-
+        
       <div className="flex flex-col gap-2">
         <label htmlFor="message" className="lable-style">
           Message
