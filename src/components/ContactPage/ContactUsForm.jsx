@@ -33,6 +33,7 @@ const ContactUsForm = () => {
   }
 
   useEffect(() => {
+    // Reset form after successful submission
     if (isSubmitSuccessful) {
       reset({
         email: "",
