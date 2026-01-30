@@ -6,6 +6,7 @@ import { Link } from "react-router-dom"
 import { getPasswordResetToken } from "../services/operations/authAPI"
 
 function ForgotPassword() {
+  // State variables for email input and email sent status
   const [email, setEmail] = useState("")
   const [emailSent, setEmailSent] = useState(false)
   const dispatch = useDispatch()
