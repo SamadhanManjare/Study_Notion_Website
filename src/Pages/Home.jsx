@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 // Image and Video Import
 import Banner from "../assets/Images/banner.mp4"
 // Component Imports
-// component import
+
 import Footer from "../components/common/Footer"
 import ReviewSlider from "../components/common/ReviewSlider"
 import CTAButton from "../components/core/HomePage/Button"
