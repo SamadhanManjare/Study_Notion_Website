@@ -18,7 +18,7 @@ function VerifyEmail() {
     if (!signupData) {
       navigate("/signup");
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
