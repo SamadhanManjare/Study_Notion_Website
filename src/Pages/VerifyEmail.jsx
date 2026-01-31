@@ -48,6 +48,9 @@ function VerifyEmail() {
   };
 
   return (
+    // Main Container
+    // --- IGNORE ---
+    //----------------------------------------------
     <div className="min-h-[calc(100vh-3.5rem)] grid place-items-center">
       {loading ? (
         <div>
