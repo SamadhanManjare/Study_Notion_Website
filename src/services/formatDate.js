@@ -1,4 +1,5 @@
 export const formatDate = (dateString) => {
+  // Formats a date string into a more readable format
     const options = { year: "numeric", month: "long", day: "numeric" }
     const date = new Date(dateString)
     const formattedDate = date.toLocaleDateString("en-US", options)
