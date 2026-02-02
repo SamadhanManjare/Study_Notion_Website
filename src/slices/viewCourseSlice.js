@@ -12,6 +12,7 @@ const viewCourseSlice = createSlice({
   name: "viewCourse",
   initialState,
   reducers: {
+   
     setCourseSectionData: (state, action) => {
       state.courseSectionData = action.payload
     },
@@ -31,6 +32,7 @@ const viewCourseSlice = createSlice({
 })
 
 export const {
+  // Action creators are generated for each case reducer function
   setCourseSectionData,
   setEntireCourseData,
   setTotalNoOfLectures,
