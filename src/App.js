@@ -30,6 +30,7 @@ import VideoDetails from "./components/core/ViewCourse/VideoDetails";
 import Instructor from "./components/core/Dashboard/InstructorDashboard/Instructor";
 
 function App() {
+  
 
   const dispatch = useDispatch();
   const navigate = useNavigate();
@@ -38,6 +39,7 @@ function App() {
 
 
   return (
+    // Tailwind CSS classes are used for styling
    <div className="w-screen min-h-screen bg-richblack-900 flex flex-col font-inter">
     <Navbar/>
     <Routes>
@@ -101,6 +103,7 @@ function App() {
 
     <Route 
       element={
+        // A private route to protect dashboard and its nested routes
         <PrivateRoute>
           <Dashboard />
         </PrivateRoute>
