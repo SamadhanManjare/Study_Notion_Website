@@ -140,6 +140,7 @@ function App() {
 
     
       <Route element={
+        // A private route to protect view course page
         <PrivateRoute>
           <ViewCourse />
         </PrivateRoute>
